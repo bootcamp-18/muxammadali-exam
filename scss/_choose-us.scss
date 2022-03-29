@@ -1,0 +1,51 @@
+.choose-us {
+    margin: 5rem 0;
+    @extend .flex-col;
+    gap: 2rem;
+    .tex {
+        @extend .grid-c;
+    }
+    .cards {
+        display: flex;
+
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        .card {
+            @extend .grid-c;
+            gap: 0.5rem;
+            width: 20rem;
+            height: 16rem;
+            border-radius: 16px;
+            p {
+                padding-left: 1rem;
+            }
+        }
+        .tech {
+            background: #FFF3EB;
+            
+        }
+        .tech2 {
+            background: #ECEDFF;
+            
+        }
+        .tech3 {
+            background: #FFECF1;
+            
+        }
+        .tech4 {
+            background: #F7F7F7;
+            
+        }
+        .tech5 {
+            background: #FFFAEC;
+            
+        }
+        .tech6 {
+            background: #EEFFF3;
+            
+        
+    }
+}
+}

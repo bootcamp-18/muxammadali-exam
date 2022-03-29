@@ -1,0 +1,28 @@
+.ansvers {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .titles {
+       @extend .flex-col;
+       gap: 1rem
+    }
+    .tex {
+        @extend .grid-c;
+    }
+
+    .accordion {
+        
+
+        .accordion-button {
+            gap: 1rem;
+        }
+    }
+    .ansvers-bottom {
+        @extend .flex-c;
+        color: #E24329;
+        font-weight: 700;
+        
+    }
+}
